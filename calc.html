@@ -4,7 +4,11 @@
 
 <script language=javascript type="text/javascript">
 
+<<<<<<< HEAD
 var plus,minus,divide,multiply,max,pow,min
+=======
+var plus,minus,divide,multiply,max
+>>>>>>> d003b91 (add max function)
 
 function initialize(){
  plus=document.calc.operator.options[0]
@@ -12,8 +16,11 @@ function initialize(){
  divide=document.calc.operator.options[2]
  multiply=document.calc.operator.options[3]
  max=document.calc.operator.options[4]
+<<<<<<< HEAD
  pow=document.calc.operator.options[5]
  min=document.calc.operator.options[6]
+=======
+>>>>>>> d003b91 (add max function)
 }
 
 function calculate(){
@@ -29,10 +36,13 @@ function calculate(){
         document.calc.answer.value = a * b
 	if (max.selected)
 		document.calc.answer.value = Math.max(a,b)
+<<<<<<< HEAD
 	if (pow.selected)
 		document.calc.answer.value = Math.pow(a,b)
 	if (min.selected)
 		document.calc.answer.value = Math.min(a,b)
+=======
+>>>>>>> d003b91 (add max function)
 }
 
 </script>
@@ -54,8 +64,11 @@ Change the operation via the dropdown selection box if desired.
 <option value=divide>/
 <option value=multiply>*
 <option value=max>max
+<<<<<<< HEAD
 <option value=pow>**
 <option value=min>min
+=======
+>>>>>>> d003b91 (add max function)
 </select>
 
 <input type=text name=val2 size=5>
